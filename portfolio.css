@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
 }
-h1{
+h1,h2,h3{
     text-align: center;
 }
 
 @media only screen and (max-width: 600px){
 
-section{
+section, footer{
     margin-left: 20vw;
     margin-right: 20vw;
 }
@@ -15,14 +15,14 @@ section{
 
 @media only screen and (max-width: 800px){
 
-section{
+section, footer{
     margin-left: 15vw;
     margin-right: 15vw;
 }
 }
 
 @media only screen and (max-width: 3000px){
-    section{
+    section, footer{
         margin-left: 10vw;
         margin-right: 10vw;
     }
